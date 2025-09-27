@@ -21,6 +21,7 @@ Es ideal para experimentar con Big Data, procesar grandes volúmenes de datos y 
 
 ## ⚙️ Estructura del proyecto
 
+```text
 bigdata-optimization-pipeline/
 ├── LICENSE          # MIT para mis scripts nuevos
 ├── README.md        # Este README
@@ -36,6 +37,7 @@ bigdata-optimization-pipeline/
 ├── docker-compose.yml
 ├── Makefile
 └── startup.sh / entrypoint.sh / otros scripts del repo original
+```
 
 
 ---
@@ -93,5 +95,6 @@ Orquestación de un entorno completo de Big Data con Docker.
 👨‍💻 Autor
 
 Kenyi Pablo Ruiz Quezada
+
 📧 [kenyi.ruiz22@gmail.com](mailto:kenyi.ruiz22@gmail.com)  
 🔗 [LinkedIn](https://rebrand.ly/kenyi-ruiz)
