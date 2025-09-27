@@ -29,7 +29,7 @@ services:
       - "9864:9864"
     env_file:
       - ./hadoop.env
-
+    
   resourcemanager:
     image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
     container_name: resourcemanager
@@ -119,8 +119,12 @@ services:
     ports:
       - "8089:8089"
 
+
+
 volumes:
   hadoop_namenode:
   hadoop_datanode:
+  # hadoop_datanode2:
+  # hadoop_datanode3:
   hadoop_historyserver:
 
